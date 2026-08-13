@@ -115,6 +115,10 @@
     background: var(--border);
     margin-top: 14px;
   }
+  .pair.single {
+    grid-template-columns: 1fr;
+    margin-bottom: 14px;
+  }
   .pane { background: var(--panel); }
   .pane video { display: block; width: 100%; height: auto; }
   .pane-label {
@@ -157,9 +161,9 @@
 <main>
   <div class="fold-note">
     <strong>Model shown below: Fold&nbsp;2 configuration.</strong> Trained on RS307, RS330, and RS615;
-    evaluated on the held-out specimen <strong>RS315</strong>. Each pair shows the real capture (left) and the
-    generated result (right) rotated through the full 360&deg; camera trajectory used for training and evaluation
-    (see Table 5 in the manuscript).
+    evaluated on the held-out specimen <strong>RS315</strong>. Each clip shows the real capture and generated
+    result composited side-by-side into a single video (frame-synchronized) rotated through the full 360&deg;
+    camera trajectory used for training and evaluation (see Table 5 in the manuscript).
   </div>
 
   <div class="grid">
@@ -169,17 +173,10 @@
         <h2>RS315</h2>
         <span class="tag test">held-out test</span>
       </div>
-      <div class="pair">
+      <div class="pair single">
         <div class="pane">
-          <video src="assets/real_rs315.mp4" autoplay loop muted playsinline></video>
+          <video src="assets/rs315_combined.mp4" autoplay loop muted playsinline></video>
         </div>
-        <div class="pane">
-          <video src="assets/generate_rs315.mp4" autoplay loop muted playsinline></video>
-        </div>
-      </div>
-      <div class="pair" style="background:none;">
-        <div class="pane-label">Real</div>
-        <div class="pane-label">Generated</div>
       </div>
     </div>
 
@@ -188,17 +185,10 @@
         <h2>RS307</h2>
         <span class="tag train">training</span>
       </div>
-      <div class="pair">
+      <div class="pair single">
         <div class="pane">
-          <video src="assets/real_rs307.mp4" autoplay loop muted playsinline></video>
+          <video src="assets/rs307_combined.mp4" autoplay loop muted playsinline></video>
         </div>
-        <div class="pane">
-          <video src="assets/generate_rs307.mp4" autoplay loop muted playsinline></video>
-        </div>
-      </div>
-      <div class="pair" style="background:none;">
-        <div class="pane-label">Real</div>
-        <div class="pane-label">Generated</div>
       </div>
     </div>
 
@@ -207,17 +197,10 @@
         <h2>RS330</h2>
         <span class="tag train">training</span>
       </div>
-      <div class="pair">
+      <div class="pair single">
         <div class="pane">
-          <video src="assets/real_rs330.mp4" autoplay loop muted playsinline></video>
+          <video src="assets/rs330_combined.mp4" autoplay loop muted playsinline></video>
         </div>
-        <div class="pane">
-          <video src="assets/generate_rs330.mp4" autoplay loop muted playsinline></video>
-        </div>
-      </div>
-      <div class="pair" style="background:none;">
-        <div class="pane-label">Real</div>
-        <div class="pane-label">Generated</div>
       </div>
     </div>
 
@@ -226,17 +209,10 @@
         <h2>RS615</h2>
         <span class="tag train">training</span>
       </div>
-      <div class="pair">
+      <div class="pair single">
         <div class="pane">
-          <video src="assets/real_rs615.mp4" autoplay loop muted playsinline></video>
+          <video src="assets/rs615_combined.mp4" autoplay loop muted playsinline></video>
         </div>
-        <div class="pane">
-          <video src="assets/generate_rs615.mp4" autoplay loop muted playsinline></video>
-        </div>
-      </div>
-      <div class="pair" style="background:none;">
-        <div class="pane-label">Real</div>
-        <div class="pane-label">Generated</div>
       </div>
     </div>
 

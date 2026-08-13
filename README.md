@@ -26,28 +26,47 @@ directly on GitHub; see the live page above for full quality.
 ## Preview
 
 **Fold 2** configuration — trained on RS307, RS330, RS615; evaluated on
-held-out specimen **RS315**. The GIFs below preview the held-out test
-specimen; the three training-specimen reconstructions (RS307, RS330, RS615)
-are available on the [live page](https://marcelab.caece.net/3D-results/).
+held-out specimen **RS315**. The GIF below shows the held-out test specimen
+(real on the left, generated on the right, composited into a single file so
+the two rotations stay frame-synchronized). The three training-specimen
+reconstructions (RS307, RS330, RS615) are available on the
+[live page](https://marcelab.caece.net/3D-results/).
 
-| Specimen | Real | Generated |
-|---|---|---|
-| RS315 &nbsp;*(held-out test)* | ![real RS315](gifs/real_rs315.gif) | ![generated RS315](gifs/generate_rs315.gif) |
+![RS315 real vs generated](gifs/rs315_combined.gif)
 
 ## Contents
 
 - `index.html` — visualization gallery (real vs. generated, 360° rotation)
-- `assets/` — MP4 videos (256×256, 25 fps, 72 frames covering 0°–360°)
-  - `real_rsXXX.mp4` — real captured multi-view rendering
-  - `generate_rsXXX.mp4` — GRAF-generated result under the corresponding
-    specimen's structural condition
-- `gifs/` — downsampled GIF previews (160 px, 12 fps) for embedding in this
-  README
+- `assets/` — MP4 videos (256×256 per pane, 25 fps, 72 frames covering
+  0°–360°); each `rsXXX_combined.mp4` composites the real capture and
+  generated result side-by-side into a single frame-synchronized file
+- `gifs/` — a composited real-vs-generated GIF preview (RS315, side-by-side
+  in a single file to keep the two rotations frame-synchronized) for
+  embedding in this README
 
 The videos shown correspond to the **Fold 2** cross-validation configuration
 (trained on RS307, RS330, RS615; evaluated on held-out specimen RS315), as
 defined in Table 5 of the manuscript.
 
+## Enabling GitHub Pages
+
+1. Push this repository to your lab's GitHub organization.
+2. Go to **Settings → Pages**.
+3. Under **Source**, select the `main` branch and `/ (root)` folder.
+4. Save. The page will be live at the URL shown above within a few minutes.
+
+## Recommended: archive with Zenodo for a persistent DOI
+
+GitHub links can break if a repo is renamed, moved, or deleted. To ensure the
+supplementary material remains citable long-term:
+
+1. Connect this repository to [Zenodo](https://zenodo.org/) via
+   GitHub → Zenodo integration (one-time setup).
+2. Create a GitHub **Release** for this repo — Zenodo will automatically
+   archive it and mint a DOI.
+3. Use the DOI link (e.g. `https://doi.org/10.5281/zenodo.XXXXXXX`) in the
+   paper's Data Availability statement instead of (or in addition to) the raw
+   GitHub Pages URL.
 
 ## License
 
