@@ -48,25 +48,6 @@ The videos shown correspond to the **Fold 2** cross-validation configuration
 (trained on RS307, RS330, RS615; evaluated on held-out specimen RS315), as
 defined in Table 5 of the manuscript.
 
-## Enabling GitHub Pages
-
-1. Push this repository to your lab's GitHub organization.
-2. Go to **Settings → Pages**.
-3. Under **Source**, select the `main` branch and `/ (root)` folder.
-4. Save. The page will be live at the URL shown above within a few minutes.
-
-## Recommended: archive with Zenodo for a persistent DOI
-
-GitHub links can break if a repo is renamed, moved, or deleted. To ensure the
-supplementary material remains citable long-term:
-
-1. Connect this repository to [Zenodo](https://zenodo.org/) via
-   GitHub → Zenodo integration (one-time setup).
-2. Create a GitHub **Release** for this repo — Zenodo will automatically
-   archive it and mint a DOI.
-3. Use the DOI link (e.g. `https://doi.org/10.5281/zenodo.XXXXXXX`) in the
-   paper's Data Availability statement instead of (or in addition to) the raw
-   GitHub Pages URL.
 
 ## License
 
