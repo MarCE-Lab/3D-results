@@ -13,15 +13,27 @@ manuscript (PDF does not support embedded video/GIF).
 
 ## Live page
 
-Once GitHub Pages is enabled for this repo (see below), the visualization
-gallery will be available at:
+The full interactive gallery (higher-quality MP4, side-by-side layout) is
+live at:
 
 ```
-https://<your-lab-org>.github.io/<repo-name>/
+https://marcelab.caece.net/3D-results/
 ```
 
-Replace the placeholder above with the actual URL after enabling Pages, and
-update the corresponding link in the paper's Data Availability statement.
+The animated previews below are lower-resolution GIFs for quick viewing
+directly on GitHub; see the live page above for full quality.
+
+## Preview
+
+**Fold 2** configuration — trained on RS307, RS330, RS615; evaluated on
+held-out specimen **RS315**.
+
+| Specimen | Real | Generated |
+|---|---|---|
+| RS315 &nbsp;*(held-out test)* | ![real RS315](gifs/real_rs315.gif) | ![generated RS315](gifs/generate_rs315.gif) |
+| RS307 &nbsp;*(training)* | ![real RS307](gifs/real_rs307.gif) | ![generated RS307](gifs/generate_rs307.gif) |
+| RS330 &nbsp;*(training)* | ![real RS330](gifs/real_rs330.gif) | ![generated RS330](gifs/generate_rs330.gif) |
+| RS615 &nbsp;*(training)* | ![real RS615](gifs/real_rs615.gif) | ![generated RS615](gifs/generate_rs615.gif) |
 
 ## Contents
 
@@ -30,6 +42,8 @@ update the corresponding link in the paper's Data Availability statement.
   - `real_rsXXX.mp4` — real captured multi-view rendering
   - `generate_rsXXX.mp4` — GRAF-generated result under the corresponding
     specimen's structural condition
+- `gifs/` — downsampled GIF previews (160 px, 12 fps) for embedding in this
+  README
 
 The videos shown correspond to the **Fold 2** cross-validation configuration
 (trained on RS307, RS330, RS615; evaluated on held-out specimen RS315), as
