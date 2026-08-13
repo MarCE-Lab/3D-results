@@ -26,14 +26,13 @@ directly on GitHub; see the live page above for full quality.
 ## Preview
 
 **Fold 2** configuration — trained on RS307, RS330, RS615; evaluated on
-held-out specimen **RS315**.
+held-out specimen **RS315**. The GIFs below preview the held-out test
+specimen; the three training-specimen reconstructions (RS307, RS330, RS615)
+are available on the [live page](https://marcelab.caece.net/3D-results/).
 
 | Specimen | Real | Generated |
 |---|---|---|
 | RS315 &nbsp;*(held-out test)* | ![real RS315](gifs/real_rs315.gif) | ![generated RS315](gifs/generate_rs315.gif) |
-| RS307 &nbsp;*(training)* | ![real RS307](gifs/real_rs307.gif) | ![generated RS307](gifs/generate_rs307.gif) |
-| RS330 &nbsp;*(training)* | ![real RS330](gifs/real_rs330.gif) | ![generated RS330](gifs/generate_rs330.gif) |
-| RS615 &nbsp;*(training)* | ![real RS615](gifs/real_rs615.gif) | ![generated RS615](gifs/generate_rs615.gif) |
 
 ## Contents
 
