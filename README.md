@@ -1,5 +1,7 @@
 # 3D Damage Visualization — RC Bridge Columns (GRAF)
 
+**Live demo: [https://marcelab.caece.net/3D-results/](https://marcelab.caece.net/3D-results/)**
+
 Supplementary material for:
 
 > **3D Damage Prediction for RC Bridge Columns via Physics-Informed Generative Radiance Fields**
