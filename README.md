@@ -5,8 +5,9 @@
 Supplementary material for:
 
 > **3D Damage Scene Forecasting for RC Bridge Columns Using Physics-guided Generative Radiance Fields**
-> Chia-Yu Chou, Rih-Teng Wu
-> Department of Civil Engineering, National Taiwan University
+> Chia-Yu Chou<sup>a</sup>, Rih-Teng Wu<sup>a,*</sup>, Ping-Hsiung Wang<sup>b</sup>  
+> <sup>a</sup>Department of Civil Engineering, National Taiwan University, Taipei, Taiwan  
+> <sup>b</sup>Department of Civil Engineering, National Taipei University of Technology, Taipei, Taiwan
 > Submitted to *Engineering Structures*
 
 This repository hosts 360° rotating visualizations of real vs. GRAF-generated
