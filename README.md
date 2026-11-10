@@ -1,10 +1,10 @@
-# 3D Damage Visualization — RC Bridge Columns (GRAF)
+# 3D Damage Scene Forecasting for RC Bridge Columns Using Physics-guided Generative Radiance Fields
 
 **Live demo: [https://marcelab.caece.net/3D-results/](https://marcelab.caece.net/3D-results/)**
 
 Supplementary material for:
 
-> **3D Damage Prediction for RC Bridge Columns via Physics-Informed Generative Radiance Fields**
+> **3D Damage Scene Forecasting for RC Bridge Columns Using Physics-guided Generative Radiance Fields**
 > Chia-Yu Chou, Rih-Teng Wu
 > Department of Civil Engineering, National Taiwan University
 > Submitted to *Engineering Structures*
