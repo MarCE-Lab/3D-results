@@ -8,7 +8,6 @@ Supplementary material for:
 > Chia-Yu Chou<sup>a</sup>, Rih-Teng Wu<sup>a,*</sup>, Ping-Hsiung Wang<sup>b</sup>  
 > <sup>a</sup>Department of Civil Engineering, National Taiwan University, Taipei, Taiwan  
 > <sup>b</sup>Department of Civil Engineering, National Taipei University of Technology, Taipei, Taiwan
-> Submitted to *Engineering Structures*
 
 This repository hosts 360° rotating visualizations of real vs. GRAF-generated
 RC bridge column damage that could not be included as static figures in the
